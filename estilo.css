@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+h1 {
+    margin: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.container h2 {
+    margin: 10px;
+}
+
+.container img {
+    width: 40px;
+}
