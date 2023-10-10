@@ -46,3 +46,28 @@ b{
     width: 70px;
     border-radius: 50px;
 }
+
+@media (max-width: 767px) {
+    .container {
+        width: 420px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .huevo {
+        width: 140px;
+        height: 140px;
+    }
+
+    .logo {
+        width: 140px;
+        height: 140px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .facu {
+        width: 140px;
+        height: 140px;
+    }
+}
