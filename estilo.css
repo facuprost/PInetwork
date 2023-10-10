@@ -8,16 +8,6 @@ body {
     background-color: blueviolet;
 }
 
-.logo {
-    text-align: center;
-}
-
-.logo img {
-    margin: 10px;
-    width: 50px;
-    border-radius: 50px;
-}
-
 
 
 h1 {
@@ -33,7 +23,7 @@ b{
 .container {
     display: flex;
     text-align: center;
-    justify-content: center;
+    justify-content: space-evenly;
 
 }
 
@@ -44,4 +34,15 @@ b{
 
 .container img {
     width: 40px;
+}
+
+.container .logo {
+    display: flex;
+    align-items: center;
+}
+
+.container .logo img {
+    
+    width: 50px;
+    border-radius: 50px;
 }
