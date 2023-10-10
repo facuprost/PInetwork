@@ -9,9 +9,16 @@ body {
 }
 
 .logo {
-    width: 50px;
-    
+    text-align: center;
 }
+
+.logo img {
+    margin: 10px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+
 
 h1 {
     background-color: white;
